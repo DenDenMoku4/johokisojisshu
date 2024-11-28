@@ -43,9 +43,5 @@ df = pd.DataFrame(
 st.map(df)
 st.table(df)
 
-from PIL import Image #PILをpip install pillowを実施する
-img = Image.open('IMG_2893.jpg')
-#自分の画像のファイル名にする(room.jpgは例えば)
-#自分のPCの画像を同じフォルダに入れて指定する
-st.image(img,caption='MASA', use_container_width=True)
+
 
